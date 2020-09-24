@@ -2,13 +2,23 @@
 public class Test {
 
 	public static void main(String[] args) {
-//		System.out.println("HelloWorld");
-		
-		MonPoint MonPoint = new MonPoint (5, 4);
-		
-		String value = MonPoint.getValue();
-		System.out.println(value);
 
+		
+		MonPoint form1 = new MonPoint (5, 4);
+		
+		// Display value
+		String value = form1.getValue();
+		System.out.println(value);
+		
+		
+		//Change value
+		form1.moveTo(10, 8);
+		String newValue = form1.getValue();
+		System.out.println(newValue);
+		
+		//Erase value
+		System.out.println(form1.erase());
+	
 	}
 
 }

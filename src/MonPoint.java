@@ -12,11 +12,27 @@ public class MonPoint {
 		y = b ;
 	}
 	
+	
 	public String getValue()
 	{
 		String value = x + " : " + y;
 		return value;
 	}
+	
+	public void moveTo(int newX, int newY) 
+	{
+		this.x = newX;
+		this.y = newY;
+	}
+	
+	public String erase() 
+	{	
+		String text = "le point est effacé";
+		return text;
+	}
+	
+	
+
 	
 	
 
