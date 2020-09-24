@@ -7,11 +7,6 @@ public class MonRectangle extends MonPoint {
 		super(longueur, hauteur);
 	}
 	
-
-
-	
-	
-
 }
 //
 //MonPoint (){}

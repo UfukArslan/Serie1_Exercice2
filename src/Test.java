@@ -29,6 +29,10 @@ public class Test {
 		
 		System.out.println(rect.erase());
 		
+		
+		MonPoint form2 = new MonPoint (12 , 3);
+		form2.getValue();
+		
 	
 	}
 
