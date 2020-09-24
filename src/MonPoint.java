@@ -1,8 +1,8 @@
 
 public class MonPoint {
 	
-	private int x ;
-	private int y ;
+	protected int x ;
+	protected int y ;
 	
 	MonPoint (){}
 	
@@ -13,16 +13,17 @@ public class MonPoint {
 	}
 	
 	
-	public String getValue()
+	public void getValue()
 	{
 		String value = x + " : " + y;
-		return value;
+		System.out.println("getValue = " + value);
 	}
 	
 	public void moveTo(int newX, int newY) 
 	{
 		this.x = newX;
 		this.y = newY;
+		System.out.println("moveTo: x=" +this.x+", y="+this.y+"");
 	}
 	
 	public String erase() 
@@ -31,6 +32,7 @@ public class MonPoint {
 		return text;
 	}
 	
+
 	
 
 	
